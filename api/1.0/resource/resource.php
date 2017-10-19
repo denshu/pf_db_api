@@ -10,11 +10,20 @@ abstract class Resource {
 		$this->conn = $db;
 	}
 
-	public function prepareQuery($query) {
-		$stmt = $this->conn->prepare($query);
-		return $stmt;
+	/**
+	* Returns PDO connection (because $conn is private)
+	*
+	* @return PDO
+    */
+	public function getConn() {
+		return $this->conn;
 	}
 
+	/**
+	* Returns table name (because $table_name is protected)
+	*
+	* @return string 	the table name, of course
+    */
 	public function getTableName() {
 		return $this->table_name;
 	}
