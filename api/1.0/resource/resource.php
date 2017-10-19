@@ -6,18 +6,7 @@ abstract class Resource {
 	private $conn;
 	protected $table_name;
 
-	public function __construct($db) {
-		$this->conn = $db;
-	}
-
-	/**
-	* Returns PDO connection (because $conn is private)
-	*
-	* @return PDO
-    */
-	public function getConn() {
-		return $this->conn;
-	}
+	public $property_types;
 
 	/**
 	* Returns table name (because $table_name is protected)
@@ -51,7 +40,7 @@ abstract class Resource {
 		// }
 	}
 
-	function read($query_object) {
+	function read() {
 
 		// $query = new Query();
 		// $params = json_decode($parameters);
@@ -70,6 +59,5 @@ abstract class Resource {
 
 	// used when filling up the update product form
 	function readOne() {
-
 	}
 }

@@ -20,4 +20,21 @@ class Character extends Resource {
 	public $sprite;
 	public $static_sprite;
 
+	public $property_types = [
+		'id' => 'int',
+		'name' => 'string',
+		'gender' => 'string',
+		'nation' => 'string',
+		'location' => 'string',
+		'hp_rating' => 'string',
+		'sp_rating' => 'string',
+		'str_rating' => 'string',
+		'dex_rating' => 'string',
+		'agi_rating' => 'string',
+		'int_rating' => 'string',
+		'description' => 'string',
+		'sprite' => 'string',
+		'static_sprite' => 'string'
+	];
+
 }

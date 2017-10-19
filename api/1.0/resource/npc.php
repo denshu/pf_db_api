@@ -13,4 +13,15 @@ class NPC extends Resource {
 	public $description;
 	public $sprite;
 	public $static_sprite;
+
+	public $property_types = [
+		'id' => 'int',
+		'name' => 'string',
+		'gender' => 'string',
+		'nation' => 'string',
+		'location' => 'string',
+		'description' => 'string',
+		'sprite' => 'string',
+		'static_sprite' => 'string'
+	];
 }
