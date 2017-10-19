@@ -2,6 +2,7 @@
 
 include_once 'config.php';
 include_once 'api.php';
+include_once 'utils.php';
 
 include_once __DIR__ . '/db/database.php';
 include_once __DIR__ . '/db/query.php';
