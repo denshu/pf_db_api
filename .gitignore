@@ -5,28 +5,31 @@ img/
 css/
 js/
 lol/
-config.php
 
-data.txt
+/data.txt
 
-generate_character_stats.php
+/generate_character_stats.php
 
-generate_npc_stats.php
+/generate_npc_stats.php
 
-index_old.php
+/index_old.php
 
-index.php
+/index.php
 
-load_characters.php
+/load_characters.php
 
-utils.js
+/utils.js
 
-search_generate_grid.php
+/search_generate_grid.php
 
-search_generate_grid_npc.php
+/search_generate_grid_npc.php
 
-npcs.txt
+/npcs.txt
 
-load_npcs.php
+/load_npcs.php
 
-load_statistics.php
+/load_statistics.php
+
+/config.php
+
+test.php
