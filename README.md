@@ -8,8 +8,8 @@
 
 This API will be created using vanilla PHP. I'll use frameworks later.
 
-When it's done, it will be added to this:
-http://denshuto.me/pfdatabase
+You can access it here: `http://denshuto.me/pf_db_api/api/1.0/`
+Test application is here: http://denshuto.me/pf_db_api/test/
 
 ## Example
 
@@ -26,8 +26,8 @@ Things you can do:
 - perform API call (requires valid auth token)
 - log out, if you feel so inclined
 
+a screenshot:
 ![test app img 1](http://denshuto.me/img/api.png)
-![test app img 2](http://denshuto.me/img/api2.png)
 
 ## Notes
 
