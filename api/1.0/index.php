@@ -51,8 +51,10 @@ if ($rowCount == 0) {
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
+$resource_name = $route[0];
+
 // instantiate resource object
-switch ($route[0]) {
+switch ($resource_name) {
 	case 'character':
 		$resource = new Character();
 		break;
@@ -100,9 +102,17 @@ if ($num > 0) {
 		$resource_item = array(
 			"id" => $id,
 			"name" => $name,
-			"sprite" => $sprite,
+			"location" => $location,
 			"description" => $description
 		);
+		if ($resource_name = 'character') {
+			$resource_item["hp_rating"] = $hp_rating;
+			$resource_item["sp_rating"] = $sp_rating;
+			$resource_item["str_rating"] = $str_rating;
+			$resource_item["dex_rating"] = $dex_rating;
+			$resource_item["agi_rating"] = $agi_rating;
+			$resource_item["int_rating"] = $int_rating;
+		};
 
 		array_push($resource_arr["results"], $resource_item);
 	}

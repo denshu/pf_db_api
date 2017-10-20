@@ -102,7 +102,7 @@
 </form>
 <br>
 <h3>API call for NPCs</h3>
-<form action="api_call.php" method="GET">
+<form action="api_call.php" method="POST">
 	token <input type="text" name="token" /><br><br>
 	id <input type="text" name="id" /><br>
 	name <input type="text" name="name" /><br>
