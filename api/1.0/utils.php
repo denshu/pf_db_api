@@ -1,7 +1,6 @@
 <?php
 
 class Util {
-
 	/**
 	* Get last key of array
 	*

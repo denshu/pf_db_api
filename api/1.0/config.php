@@ -1,7 +1,7 @@
 <?php 
 
 $version = '1.0';
-$last_updated = '2017-10-17';
+$last_updated = '2017-10-19';
 $author = 'denshu';
 
 define('SITE_ROOT', __DIR__);

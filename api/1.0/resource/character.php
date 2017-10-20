@@ -36,5 +36,4 @@ class Character extends Resource {
 		'sprite' => 'string',
 		'static_sprite' => 'string'
 	];
-
 }

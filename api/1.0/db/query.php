@@ -14,8 +14,6 @@ class Query {
 		return $this;
 	}
 
-
-
 	/**
 	* Create (or update) the MySQL query
 	*
@@ -112,11 +110,3 @@ class Query {
 		}
 	}
 }
-
-
-
-
-
-
-
-

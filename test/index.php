@@ -4,6 +4,7 @@ include_once 'session.php';
 ?>
 <!DOCTYPE html>
 <html>
+<body>
 <?php if (empty($_SESSION)) { ?>
 	<h2>login</h2>
 	<form action="login.php" method="POST">
@@ -45,6 +46,5 @@ include_once 'session.php';
 		</form>
 	</div>
 <?php } ?>
-
-
+</body>
 </html>
