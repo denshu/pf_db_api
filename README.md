@@ -27,6 +27,7 @@ Things you can do:
 - log out, if you feel so inclined
 
 a screenshot:
+
 ![test app img 1](http://denshuto.me/img/api.png)
 
 ## Notes
