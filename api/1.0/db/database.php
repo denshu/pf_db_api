@@ -7,6 +7,10 @@ class Database {
 	private $password = "DSFARGEG";
 	public $conn;
 
+	public function changeDBName($name) {
+		$this->db_name = $name;
+	}
+
 	public function getConnection() {
 		$this->conn = null;
 
