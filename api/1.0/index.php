@@ -105,7 +105,7 @@ if ($num > 0) {
 			"location" => $location,
 			"description" => $description
 		);
-		if ($resource_name = 'character') {
+		if ($resource_name == 'character') {
 			$resource_item["hp_rating"] = $hp_rating;
 			$resource_item["sp_rating"] = $sp_rating;
 			$resource_item["str_rating"] = $str_rating;
