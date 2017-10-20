@@ -17,6 +17,18 @@ http://denshuto.me/pfdatabase
 `/api/1.0/character&str_rating=B` will return all characters whose strength stat rating is B.
 Things like that.
 
+## Test application
+
+Things you can do:
+- register
+- log in
+- generate new token
+- perform API call (requires valid auth token)
+- log out, if you feel so inclined
+
+![test app img 1](http://denshuto.me/img/api.png)
+![test app img 2](http://denshuto.me/img/api2.png)
+
 ## Notes
 
 - Again, it's not done yet
