@@ -10,12 +10,12 @@ if (!empty($_SESSION)) {
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-if (strlen($username) > 16) { ?>
-	username less than 16 chars please. <a href="index.php">click to return</a>
+if ((strlen($username) > 16) || (strlen($username) < 6)) { ?>
+	username more than 6 chars, less than 16 chars please. <a href="index.php">click to return</a>
 <?php 
 	exit; 
 }
-if ((strlen($password) < 6) && (strlen($password) > 16)) { ?>
+if ((strlen($password) < 6) || (strlen($password) > 16)) { ?>
 	password more than 6 chars, less than 16 chars please. <a href="index.php">click to return</a>
 <?php 
 	exit; 
