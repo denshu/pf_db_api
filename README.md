@@ -21,6 +21,10 @@ Test application is here: http://denshuto.me/pf_db_api/test/
 
 Things like that.
 
+Example request using Postman:
+
+![example request img](http://denshuto.me/img/api3.png)
+
 ## Test application
 
 Things you can do:
